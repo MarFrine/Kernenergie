@@ -1,0 +1,91 @@
+<html>
+
+
+
+	<head>
+
+		<meta charset=UTF-8>
+		<title id="titel"></title>
+		<link type="text/css" rel="stylesheet" href="moonlord.css">
+		<script src="moonlord.js" defer></script>
+	</head>
+
+	<body>
+
+		<div style="text-align:right; opacity:70%">
+			&#169; Keks-Drücker by MarFri-Games
+			<br>
+			<button onclick="window.print()">Seite drucken</button>
+			<audio src="quellen/keks-click.mp3" id="audio1">
+		</div>
+
+		<div id="zeige">
+
+		<h3 id="zeigen">Kekse pro Klick: 1</h3>
+		<button class="defaultButton" onclick="klick()" id="klicke"></button>
+		<br>
+		<h3 id="cookiesPerSecondDisplay">Kekse pro Sekunde: 0</h3>
+		<h1 id="anzeige">Kekse: 0<h1>
+
+		</div>
+
+		<div id="bereich">
+		<canvas id="linie" width="1200" height="450"></canvas>
+		<img src="quellen/keksatom.gif" width="50" id="atom1">
+		<span class="round"></span>
+		<img src="quellen/keks.png" width="380" id="kopf" class="center">
+
+		</div>
+
+		<div id="Building">
+
+		<table border="5" width="100%" height="300">
+			<tr>
+				<td width="20%">
+
+					<span class="links" id="klicker_A" style="font-weight:bold"></span>
+					<span class="rechts" id="klicker_P" style="font-weight:bold"></span>
+
+					<img src="quellen/Klicker.png" width="100%" align="bottom" id="klicker">
+
+				</td>
+				<td width="20%">
+
+					<span class="links" id="atom_A" style="font-weight:bold"></span>
+					<span class="rechts" id="atom_P" style="font-weight:bold"></span>
+
+					<img src="quellen/keksatom.gif" width="100%" id="atom">
+				</td>
+				<td width="20%">
+
+					<span class="links" id="fabrik_A" style="font-weight:bold"></span>
+					<span class="rechts" id="fabrik_P" style="font-weight:bold"></span>
+
+					<img src="quellen/keksfabrik.gif" width="100%" id="fabrik">
+				</td>
+				<td width="20%">
+
+					<span class="links" id="inferno_A" style="font-weight:bold"></span>
+					<span class="rechts" id="inferno_P" style="font-weight:bold"></span>
+
+					<img src="quellen/keks_inferno.png" width="100%" id="inferno">
+				</td>
+				<td width="20%">
+
+					<span class="links" id="engel_A" style="font-weight:bold"></span>
+					<span class="rechts" id="engel_P" style="font-weight:bold"></span>
+
+					<img src="quellen/engelboese.gif" width="100%" id="engel">
+				</td>
+			</tr>
+
+		</table>
+
+		</div>
+
+
+
+
+
+	</body>
+</html>
