@@ -1,0 +1,78 @@
+#zeige {
+
+	position:absolute;
+    top:0;
+    left:40%;
+    width:20%;
+    height:200px;
+	text-align: center;
+
+}
+
+#bereich {
+
+	position:absolute;
+    top:230;
+    left:20%;
+    width:60%;
+    height:600;
+
+}
+
+#Building {
+
+	position:absolute;
+    top:800;
+    left:0;
+    width:100%;
+    height:200px;
+
+}
+
+
+body {
+
+background: linear-gradient(to bottom, #1E90FF, #1874CD)
+
+
+}
+
+
+
+.rechts {
+
+	float:right;
+
+}
+
+.links {
+
+	float:left;
+
+}
+
+.round {
+
+	height: 450;
+	width: 1200;
+	background-color: #00FF00;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+
+	opacity: 30%;
+
+}
+
+.center {
+
+	display: block;
+	margin-right: auto;
+	position: absolute;
+	left: 35%;
+	top: 5%;
+	height:380;
+	width:380;
+	border-radius: 30%;
+
+}
